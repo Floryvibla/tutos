@@ -7,28 +7,23 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <main>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img className='img-profile' src='https://media.licdn.com/dms/image/v2/C4D03AQHQ1thn29vJkw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660099221341?e=2147483647&v=beta&t=NneOWWwM3UIgLPEST9vdgLdmUXMKBpUqOLaimQ9hkJY'/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <div>
+        <div className='header'>
+          <h1>Hello, Vite!</h1>
+          <div>
+
+          </div>
+        </div>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+        Even with the similar props as the React Native FlatList, FlashList recycles components under the hood to maximize performance.
         </p>
+        <img className='img-post' src='https://media.licdn.com/dms/image/D4D05AQFulskigs6Pog/feedshare-thumbnail_720_1280/0/1720283259185?e=2147483647&v=beta&t=hG3RCCKC8aHFrf02xyK4T12nrG34JKp8da6F4sUb5rM'/>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </main>
   )
 }
 
