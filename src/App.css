@@ -26,6 +26,8 @@ main {
   width: 450px;
   /* background-color: rgba(5, 2, 2, 0.453); */
   border-radius: 10px;
+  border-left: 1px solid #cecece;
+  border-right: 1px solid #cecece;
 }
 
 p{
