@@ -24,7 +24,7 @@ main {
   /* align-items: center; */
   gap: 10px;
   width: 450px;
-  background-color: rgba(5, 2, 2, 0.453);
+  /* background-color: rgba(5, 2, 2, 0.453); */
   border-radius: 10px;
 }
 
